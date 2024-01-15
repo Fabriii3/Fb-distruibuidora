@@ -10,7 +10,7 @@ const ItemCard = ({item}) => {
       <p>{item.description}</p>
       <p className="text-xl font-bold"> Precio: ${item.price}</p>
 
-    <Boton>
+    <Boton className="bg-emerald-600" >
       <Link to={`/item/${item.id}`}> Ver más </Link>
     </Boton>
   </article>

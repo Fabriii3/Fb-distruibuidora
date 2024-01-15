@@ -12,6 +12,8 @@ const ItemDetail = ({ item }) => {
       ...item,
       cantidad
     }
+
+    
   }
 
   return (
@@ -32,7 +34,7 @@ const ItemDetail = ({ item }) => {
         />
       
 
-        <Boton onClick={handleAgregar}> Agregar al carrito</Boton>
+        <Boton className="bg-emerald-500" onClick={handleAgregar}> Agregar al carrito</Boton>
       </div>
     </div>
   </div>

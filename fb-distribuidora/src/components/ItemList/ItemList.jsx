@@ -9,7 +9,7 @@ const ItemList = ({productos}) => {
       <h2 className="text-4xl font-bold">Productos</h2>
       <hr />
 
-        <div className="flex flex-wrap justify-start gap-10 items-center">
+        <div className="flex flex-wrap justify-start gap-10 items-stretch">
             {productos.map((item) => <ItemCard key={item.id} item={item}/>)}
         </div>
 

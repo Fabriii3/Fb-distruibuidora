@@ -1,7 +1,7 @@
 import logo from "../../assets/images/logoblack.svg"
-import NavLink from "./NavLink"
+// import NavLink from "./NavLink"
 import CartWidget from "./CartWidget"
-import { Link } from "react-router-dom";
+import { Link , NavLink  } from "react-router-dom";
 
 const links = [
     {
@@ -34,19 +34,23 @@ const links = [
 const Navbar = () => {
    
     return (
-        <header className="bg-green-600">
+        <header className="bg-green-400">
             <div className="container m-auto py-6 flex justify-between items-center">
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo FB Distribuidora" />
 
         <nav className="flex gap-4">
           {links.map((link) => (
-            <Link
+            
+            <NavLink
               key={link.href}
               to={link.href}
-              className="text-white hover:text-purple-400 text-lg uppercase font-semibold"
+              className={({ isActive }) => (
+               `text-lg uppercase font-semibold ${isActive ? "text-green-800" : "text-white" } `
+              )
+             } 
             >
               {link.label}
-            </Link>
+            </NavLink>
           ))}
 
           <CartWidget />
