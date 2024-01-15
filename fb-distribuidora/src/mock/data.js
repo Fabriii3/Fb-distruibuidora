@@ -5,6 +5,7 @@ export const MOCK_DATA = [
         price: 1500,
         img: "https://http2.mlstatic.com/D_NQ_NP_656374-MLU69789326757_062023-O.webp",
         category: 'trapos',
+        stock: 10 ,
         description: `There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are
@@ -17,6 +18,7 @@ export const MOCK_DATA = [
         price: 1200,
         img: "https://http2.mlstatic.com/D_NQ_NP_804280-MLU72571031878_112023-O.webp",
         category: 'trapos',
+        stock: 10 ,
         description: `There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are
@@ -29,6 +31,7 @@ export const MOCK_DATA = [
         price: 2000,
         img: "https://http2.mlstatic.com/D_NQ_NP_640690-MLA52186104625_102022-O.webp",
         category: 'reguillas',
+        stock: 10 ,
         description: `There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are
@@ -39,6 +42,7 @@ export const MOCK_DATA = [
         id: 4,
         name: 'Trapo Rejilla Americana Doble',
         price: 4450,
+        stock: 10 ,
         img: "https://http2.mlstatic.com/D_NQ_NP_607428-MLA53989436883_022023-O.webp",
         category: 'reguillas',
         description: `There are many variations of passages of Lorem Ipsum available, but the
@@ -53,6 +57,7 @@ export const MOCK_DATA = [
         price: 5500,
         img: "https://http2.mlstatic.com/D_NQ_NP_762332-MLU72756712590_112023-O.webp",
         category: 'microfibras',
+        stock: 10 ,
         description: `There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are
@@ -65,6 +70,7 @@ export const MOCK_DATA = [
         price: 400,
         img: "https://http2.mlstatic.com/D_NQ_NP_900910-MLA53226940941_012023-O.webp",
         category: 'esponjas',
+        stock: 10 ,
         description: `There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are
@@ -77,6 +83,7 @@ export const MOCK_DATA = [
         price: 1550,
         img: "https://http2.mlstatic.com/D_NQ_NP_637049-MLA51466272755_092022-O.webp",
         category: 'esponjas',
+        stock: 10 ,
         description: `There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are
@@ -89,6 +96,7 @@ export const MOCK_DATA = [
         price: 8500,
         img: "https://http2.mlstatic.com/D_NQ_NP_960902-MLA53337209994_012023-O.webp",
         category: 'repasadores',
+        stock: 10 ,
         description: `There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are

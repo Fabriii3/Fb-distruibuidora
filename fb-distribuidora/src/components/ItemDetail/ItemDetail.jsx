@@ -1,21 +1,42 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import Boton from "../../ejemplos/Boton";
+import QuantitySelector from "./QuantitySelector";
 
-const ItemCard = ({item}) => {
+ 
+const ItemDetail = ({ item }) => {
+  const [cantidad, setCantidad] = useState (1)
+
+
+  const handleAgregar = () => {
+    const itemToCart = {
+      ...item,
+      cantidad
+    }
+  }
 
   return (
-    <article className="w-80">
-      <img src={item.img} alt={item.name} />
-      <h3 className="text-2xl font-semibold">{item.name}</h3>
-      <hr />
-      <p>{item.description}</p>
-      <p className="text-xl font-bold">Precio: ${item.price}</p>
+  <div className="container m-auto mt-8">
+      <h3 className="text-2x1 font-semibold">{item.name}</h3>
+    <hr/>
 
-      <Boton>
-        <Link to={`/item/${item.id}`}>Ver más</Link>
-      </Boton>
-    </article>
+    <div className="flex gap-8">
+        <img src={item.img} alt={item.name} />
+      <div>
+        <p> {item.description}</p>
+        <p className="text-xl font-bold"> Precio: ${item.price}</p>
+       
+        <QuantitySelector
+        cantidad={cantidad}
+        stock={item.stock}
+        setCantidad={setCantidad}
+        />
+      
+
+        <Boton onClick={handleAgregar}> Agregar al carrito</Boton>
+      </div>
+    </div>
+  </div>
   );
 };
 
-export default ItemCard;
+export default ItemDetail;

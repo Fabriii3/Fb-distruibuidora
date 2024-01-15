@@ -12,7 +12,7 @@ const ItemListContainer = () => {
   useEffect(() => {
       setLoading(true)
 
-      pedirDatos() // <= Promise
+      pedirDatos()
           .then((data) => {
               const items = categoryId 
                               ? data.filter(prod => prod.category === categoryId)
@@ -26,11 +26,11 @@ const ItemListContainer = () => {
   return (
         <>
 
-          {loading ? (
-            <h2 className="text-center text-4xl mt-8">Cargando...</h2>
-          ) : (
-            <ItemList productos={productos} />
-          )}
+            {
+              loading
+              ? <h2 className="text-center text-4xl mt-8">Cargando...</h2>
+              : <ItemList productos={productos}/>
+            }
         </>
   );
 };

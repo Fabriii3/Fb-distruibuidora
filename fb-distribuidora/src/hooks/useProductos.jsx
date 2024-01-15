@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { pedirDatos } from "../utils/utils"
-import useFetch from "./useFetch"
+// import useFetch from "./useFetch"
 
 const useProductos = () => {
     const [productos, setProductos] = useState([])
@@ -9,7 +9,7 @@ const useProductos = () => {
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos() // <= Promise
+        pedirDatos() 
             .then((data) => {
                 setProductos( data )
                 setLoading( false )
