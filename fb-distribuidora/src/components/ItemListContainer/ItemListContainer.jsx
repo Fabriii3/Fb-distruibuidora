@@ -24,16 +24,20 @@ const ItemListContainer = () => {
           .finally(() => setLoading( false ))
   }, [categoryId])
 
-  return (
-        <>
 
+  
+ return (
+        <>
             {
-              loading ? (
-              <Loader/>
-              ) : ( <ItemList productos={productos}/>
-            )}
+              loading 
+              ? <Loader/>
+              : <ItemList productos={productos}/>
+            }
         </>
   );
+
 };
 
 export default ItemListContainer;
+
+

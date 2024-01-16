@@ -6,11 +6,15 @@ import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { CartPorvider } from './context/CartContext';
 import CartView from './components/CartView/CartView';
+import { UserProvider } from './context/UserContext';
 
 function App() {
 
   return (
-  <CartPorvider>    
+    <UserProvider>
+    
+    <CartPorvider>    
+
     <BrowserRouter>
 
         <Navbar />
@@ -30,7 +34,10 @@ function App() {
       </BrowserRouter>
 
   </CartPorvider>  
-  )
+
+  </UserProvider>
+
+  );
 }
 
 

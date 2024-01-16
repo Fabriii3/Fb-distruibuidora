@@ -35,6 +35,7 @@ const ItemDetail = ({ item }) => {
       <div>
         <p> {item.description}</p>
         <p className="text-xl font-bold"> Precio: ${item.price}</p>
+          
        
     {
       isInCart(item.id)
@@ -45,7 +46,7 @@ const ItemDetail = ({ item }) => {
           stock={item.stock}
          setCantidad={setCantidad}
           />
-          <Boton className="bg-emerald-500" onClick={handleAgregar}> Agregar al carrito</Boton>
+          <Boton className="bg-emerald-500" onClick={handleAgregar} disabled={item.stock === 0 }> Agregar al carrito</Boton>
         </>
     }
       </div>
