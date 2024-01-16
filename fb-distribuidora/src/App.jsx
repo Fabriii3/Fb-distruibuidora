@@ -4,27 +4,32 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { CartPorvider } from './context/CartContext';
+import CartView from './components/CartView/CartView';
 
 function App() {
 
   return (
+  <CartPorvider>    
     <BrowserRouter>
 
-  
-      
-      <Navbar />
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={ <ItemListContainer /> } />
-        <Route path="/productos/:categoryId" element={ <ItemListContainer /> } />
-        <Route path="/item/:itemId" element={ <ItemDetailContainer /> } />
+        <Routes>
+          <Route path="/" element={ <ItemListContainer /> } />
+          <Route path="/productos/:categoryId" element={ <ItemListContainer /> } />
+
+          <Route path="/item/:itemId" element={ <ItemDetailContainer /> } />
+          <Route path="/cart" element={<CartView/>}></Route>
 
 
-        <Route path="/not-found" element={ <h2>Not found</h2> }/>
-        <Route path="*" element={ <Navigate to={"/not-found"}/> }/>
-      </Routes>
-      
-    </BrowserRouter>
+          <Route path="/not-found" element={ <h2>Not found</h2> }/>
+          <Route path="*" element={ <Navigate to={"/not-found"}/> }/>
+        </Routes>
+        
+      </BrowserRouter>
+
+  </CartPorvider>  
   )
 }
 

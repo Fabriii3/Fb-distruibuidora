@@ -65,7 +65,7 @@
 }, {
   "id": 9,
   "name": "Juice - Orange 1.89l",
-  "pricee": 780,
+  "price": 780,
   "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "category": "esponjas",
   "stock": 8,
