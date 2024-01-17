@@ -2,6 +2,7 @@ import { useContext, useState } from "react"
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../firebase/config";
 import {collection , addDoc } from  "firebase/firestore";
+import Swal from "sweetalert2";
 
 const Checkout = () => {
     const {cart , totalCart , clearCart } = useContext(CartContext)
@@ -39,14 +40,20 @@ const Checkout = () => {
        .then(doc => setOrderId(doc.id))
 
         clearCart()
+
+        Swal.fire({
+          title: "Exelente!",
+          text: "Gracias por tu compra !",
+          icon: "success"
+        });
     };
 
     if (orderId) {
        return(
          <div className="container m-auto mt-10">
-          <h2 className="text-4xl font-semibold">Gracias por tu compra </h2>
+          <p className="text-4xl font-semibold"> Recibo de compra </p>
           <hr />
-          <p className="mt-4  font-semibold "> Tu numero de gestion de orden es: {orderId}</p>
+          <p className="text-2xl mt-4  font-semibold "> Tu número de gestión de orden es : {orderId}</p>
        </div>
       );
     }
@@ -91,4 +98,5 @@ const Checkout = () => {
 }
 
 export default Checkout
+
 

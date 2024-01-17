@@ -1,7 +1,6 @@
 import logo from "../../assets/images/logoblack.svg"
-// import NavLink from "./NavLink"
 import CartWidget from "./CartWidget"
-import { Link , NavLink  } from "react-router-dom";
+import {  NavLink  } from "react-router-dom";
 
 const links = [
     {
@@ -13,8 +12,8 @@ const links = [
       href: "/productos/trapos",
     },
     {
-      label: "Reguillas",
-      href: "/productos/reguillas",
+      label: "Rejillas",
+      href: "/productos/rejillas",
     },
     {
       label: "Esponjas",

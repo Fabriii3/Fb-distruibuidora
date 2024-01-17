@@ -16,6 +16,7 @@ export const CartPorvider = ({children}) => {
     
     const clearCart = () => {
       setCart([])
+      
     }
 
     const itemsInCart = () => {

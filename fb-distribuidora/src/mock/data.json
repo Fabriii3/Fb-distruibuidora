@@ -1,201 +1,228 @@
 [{
   "id": 1,
-  "name": "Repasador Margarita",
-  "price": 3300,
+  "name": "Microfibra",
+  "price": 300,
   "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-  "category": "repasadores",
+  "category": "microfibras",
   "stock": 10,
-  "description": "3 colores , medidas: 38*50 , consulte precios mayoristas y revendedores "
+  "description": "40x40 cm | cantidad por bulto : 120"
 }, {
   "id": 2,
-  "name": "Pickle - Dill",
-  "price": 1633,
+  "name": "microfibra grande lava auto",
+  "price": 2000,
   "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-  "category": "reguillas",
+  "category": "microfibras",
   "stock": 43,
-  "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+  "description": "ideal para lavar autos "
 }, {
   "id": 3,
-  "name": "Jicama",
-  "price": 5265,
+  "name": "Paño",
+  "price": 90,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
-  "category": "reguillas",
+  "category": "rejillas",
   "stock": 77,
-  "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+  "description": "Diferentes colores : amarillo | azul | verde | rosa | cantidad por bulto : 250 "
 }, {
   "id": 4,
-  "name": "Containter - 3oz Microwave Rect.",
-  "price": 7924,
+  "name": "Paño Grande ",
+  "price": 235 ,
   "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
-  "category": "esponjas",
+  "category": "rejillas",
   "stock": 29,
-  "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit."
+  "description": "ideal para la cocina | cantidad por bulto : 100 "
 }, {
   "id": 5,
-  "name": "Cloves - Whole",
-  "price": 2188,
+  "name": "Trapo comun ",
+  "price": 125,
   "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-  "category ": "microfibras",
+  "category": "trapos",
   "stock": 12,
-  "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum."
+  "description": "Julieta | cantidad por bulto : 120"
 }, {
   "id": 6,
-  "name": "Flour - Buckwheat, Dark",
-  "price": 1359,
+  "name": "Trapo costurado super",
+  "price": 230,
   "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-  "category": "esponjas",
+  "category": "trapos",
   "stock": 83,
-  "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+  "description": "cantidad por bulto : 120"
 }, {
   "id": 7,
-  "name": "Soup - Clam Chowder, Dry Mix",
-  "price": 1388,
+  "name": "Trapo nido abeja",
+  "price": 240,
   "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
-  "category ": "repasadores",
+  "category": "trapos",
   "stock": 99,
-  "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+  "description": "cantidad por bulto : 60 "
 }, {
   "id": 8,
-  "name": "Shrimp - 31/40",
-  "price": 4849,
+  "name": "Trapo consorcio",
+  "price": 330,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
-  "category": "reguillas",
+  "category": "trapos",
   "stock": 57,
-  "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus."
+  "description": " 60x70 cm | cantidad por bulto : 60"
 }, {
   "id": 9,
-  "name": "Juice - Orange 1.89l",
-  "price": 780,
+  "name": "Trapo consorcio",
+  "price": 350,
   "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
-  "category": "esponjas",
+  "category": "trapos",
   "stock": 8,
-  "description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+  "description": " 60x70 cm | cantidad por bulto : 120"
 }, {
   "id": 10,
-  "name": "Spinach - Spinach Leaf",
-  "price": 1653,
-  "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-  "category": "microfibras",
-  "stock": 44,
-  "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+  "name": "Rejilla americana ",
+  "price": 90,
+  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "category": "rejillas",
+  "stock": 8,
+  "description": "linea 10 | 42x38 cm | cantidad por bulto : 120"
 }, {
   "id": 11,
-  "name": "Beef - Tenderloin",
-  "price": 7239,
+  "name": "Rejilla multiuso",
+  "price": 170,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
-  "category": "esponjas",
+  "category": "rejillas",
   "stock": 44,
-  "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+  "description": "Linea 10 | cantidad por bulto : 120"
 }, {
   "id": 12,
-  "name": "Beef - Chuck, Boneless",
-  "price": 7923,
+  "name": "Rejilla auto",
+  "price": 350,
   "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-  "category": "esponjas",
+  "category": "rejillas",
   "stock": 73,
-  "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus."
+  "description": "cantidad por bulto : 120"
 }, {
   "id": 13,
-  "name": "Bread - Pullman, Sliced",
-  "price": 735,
+  "name": "Rejilla nido color",
+  "price": 230,
   "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-  "category": "microfibras",
+  "category": "rejillas",
   "stock": 97,
-  "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
+  "description": "cantidad por bulto : 120"
 }, {
   "id": 14,
-  "name": "Ham - Cooked",
-  "price": 4735,
+  "name": "Franela naranja",
+  "price": 192,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
-  "category": "esponjas",
+  "category": "trapos",
   "stock": 33,
-  "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus."
+  "description": "cantidad por bulto : 120"
 }, {
   "id": 15,
-  "name": "Tomato - Plum With Basil",
-  "price": 7948,
+  "name": "Repasador nido de abeja ",
+  "price": 500,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
-  "category": "trapos",
+  "category": "repasadores",
   "stock": 12,
-  "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst."
+  "description": "cantidad por bulto : 60"
 }, {
   "id": 16,
-  "name": "Turkey - Oven Roast Breast",
-  "price": 3472,
+  "name": "Repasador toalla",
+  "price": 480,
   "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-  "category": "trapos",
+  "category": "repasadores",
   "stock": 10,
-  "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum."
+  "description": "cantidad por bulto : 60"
 }, {
   "id": 17,
-  "name": "Juice - Cranberry 284ml",
-  "price": 6125,
+  "name": "Repasador toalla fleco ",
+  "price": 700,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
   "category": "repasadores",
   "stock": 29,
-  "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
+  "description": "cantidad por bulto : 60"
 }, {
   "id": 18,
-  "name": "Mikes Hard Lemonade",
-  "price": 4185,
+  "name": "Repasador nido de abeja color " ,
+  "price": 300,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
   "category": "repasadores",
   "stock": 64,
-  "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+  "description": "cantidad por bulto : 60 "
 }, {
   "id": 19,
-  "name": "Syrup - Monin, Amaretta",
-  "price": 558,
+  "name": "Cabo de primera blanco",
+  "price": 195,
   "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-  "category": "microfibras",
+  "category": "cabo",
   "stock": 8,
-  "description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+  "description": "cantidad por bulto : 50 "
 }, {
   "id": 20,
-  "name": "Muffin - Zero Transfat",
-  "price": 2866,
+  "name": "Cabo forrado color",
+  "price": 280,
   "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
-  "category": "microfibras",
+  "category": "cabo",
   "stock": 29,
-  "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+  "description": " La gauchita | cantidad por bulto : 48"
 }, {
   "id": 21,
-  "name": "Brandy - Orange, Mc Guiness",
-  "price": 722,
+  "name": "Esponja acero",
+  "price": 100,
   "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
-  "category": "trapos",
+  "category": "esponjas",
   "stock": 27,
-  "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+  "description": "MAKE 10 gr | cantidad por bulto : 60"
 }, {
   "id": 22,
-  "name": "Mix Pina Colada",
-  "price": 1510,
+  "name": "Esponja acero",
+  "price": 120,
   "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
-  "category": "reguillas",
+  "category": "esponjas",
   "stock": 47,
-  "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus."
+  "description": "MAKE 15 gr | cantidad por bulto : 60"
 }, {
   "id": 23,
-  "name": "Pea - Snow",
-  "price": 1427,
+  "name": "Esponja acero",
+  "price": 250,
   "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
   "category": "esponjas",
   "stock": 66,
-  "description": "Fusce consequat. Nulla nisl. Nunc nisl."
+  "description": "MAKE 30 gr | cantidad por bulto : 60"
 }, {
   "id": 24,
-  "name": "Apricots - Halves",
-  "price": 2588,
+  "name": "Esponja acero ",
+  "price": 420,
   "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
-  "category": "repasadores",
+  "category": "esponjas",
   "stock": 43,
-  "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+  "description": "MAKE 50 gr | cantidad por bulto : 60"
 }, {
   "id": 25,
-  "name": "Otomegusa Dashi Konbu",
+  "name": "Esponja POWER",
   "price": 6426,
   "img": "http://dummyimage.com/250x250.png/dddddd/000000",
-  "category": "microfibras",
+  "category": "esponjas",
   "stock": 74,
-  "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus."
+  "description": "Salva uña | cantidad por bulto : 120"
+}
+, {
+  "id": 27,
+  "name": "Esponja Max grande",
+  "price": 120,
+  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "category": "esponjas",
+  "stock": 74,
+  "description": " cantidad por bulto : 120"
+}
+, {
+  "id": 27,
+  "name": "Esponja comun",
+  "price": 85,
+  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "category": "esponjas",
+  "stock": 74,
+  "description": " cantidad por bulto : 240"
+}
+, {
+  "id": 28,
+  "name": "Repasador grande",
+  "price": 435,
+  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "category": "repasadores",
+  "stock": 74,
+  "description": "Juancho | cantidad por bulto : 60"
 }]
