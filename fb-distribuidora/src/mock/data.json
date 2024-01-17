@@ -1,11 +1,11 @@
 [{
   "id": 1,
-  "name": "Butter Ripple - Phillips",
-  "price": 3170,
-  "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+  "name": "Repasador Margarita",
+  "price": 3300,
+  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
   "category": "repasadores",
-  "stock": 58,
-  "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus."
+  "stock": 10,
+  "description": "3 colores , medidas: 38*50 , consulte precios mayoristas y revendedores "
 }, {
   "id": 2,
   "name": "Pickle - Dill",

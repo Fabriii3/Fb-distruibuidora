@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react"
 import ItemList from "../ItemList/ItemList";
-import { pedirDatos } from "../../utils/utils";
 import { useParams } from "react-router-dom";
 import Loader from "../Loader/Loader";
+import {collection, getDocs , query , where} from "firebase/firestore"
+import {db} from "../../firebase/config"
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([])
@@ -11,17 +12,26 @@ const ItemListContainer = () => {
   const { categoryId } = useParams()
 
   useEffect(() => {
-      setLoading(true)
+      setLoading(true) 
 
-      pedirDatos()
-          .then((data) => {
-              const items = categoryId 
-                              ? data.filter(prod => prod.category === categoryId)
-                              : data
+      const productosRef = collection(db,'productos')
+      const docRef = categoryId
+                     ? query(productosRef, where('category', '==' , categoryId))
+                     : productosRef
 
-              setProductos(items)
-          })
-          .finally(() => setLoading( false ))
+      getDocs (docRef)
+       .then ((querySnapshot)=> { 
+         const docs = querySnapshot.docs.map(doc => {
+          return {
+            ...doc.data(),
+            id: doc.id 
+          }
+         }) 
+
+         setProductos(docs)
+       })
+       .finally(() => setLoading(false))
+     
   }, [categoryId])
 
 

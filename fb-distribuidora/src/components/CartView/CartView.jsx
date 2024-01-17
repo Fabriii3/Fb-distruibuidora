@@ -42,6 +42,7 @@ const {user} = useContext(UserContext)
 
             <h4 className="mt-4 text-4xl font-semibold "> Total: ${totalCart()} </h4>
             <Boton onClick={clearCart}> Vaciar carrito </Boton>
+            <Boton><Link to="/checkout">Terminar mi compra </Link> </Boton>
 
         </section>
     </div>
