@@ -26,7 +26,7 @@ const ItemDetail = ({ item }) => {
 
   return (
   <div className="container m-auto mt-8">
-        <Boton className="bg-blue-500" onClick={handleVolver}> Volver </Boton>  
+        <Boton className="bg-emerald-500" onClick={handleVolver}> Volver </Boton>  
       <h3 className="mt-5 text-2xl font-semibold">{item.name}</h3>
     <hr className="mt-5"/>
     
@@ -46,7 +46,9 @@ const ItemDetail = ({ item }) => {
           stock={item.stock}
          setCantidad={setCantidad}
           />
-          <Boton className="bg-emerald-500" onClick={handleAgregar} disabled={item.stock === 0 }> Agregar al carrito</Boton>
+          <Boton className="bg-emerald-500" 
+          onClick={handleAgregar} 
+          disabled={item.stock === 0 }> Agregar al carrito</Boton>
         </>
     }
       </div>

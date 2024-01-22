@@ -52,8 +52,7 @@ const Checkout = () => {
        return(
          <div className="container m-auto mt-10">
           <p className="text-4xl font-semibold"> Recibo de compra </p>
-          <hr />
-          <p className="text-2xl mt-4  font-semibold "> Tu número de gestión de orden es : {orderId}</p>
+          <p className="text-2xl mt-4  font-semibold "> Tu número de orden es : {orderId}</p>
        </div>
       );
     }
@@ -91,7 +90,7 @@ const Checkout = () => {
                     value={values.email}
                     name="email" />
 
-             <button type="submit" className="bg-blue-500 text-white py-4"> Enviar </button>
+             <button type="submit" className="bg-emerald-500 text-white py-4 rounded"> Enviar </button>
           </form>
     </div>
   )

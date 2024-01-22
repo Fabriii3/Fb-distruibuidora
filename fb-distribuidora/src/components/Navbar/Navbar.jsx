@@ -29,6 +29,10 @@ const links = [
       label: "Microfibra",
       href: "/productos/microfibras",
     },
+    {
+      label: "Cabo",
+      href: "/productos/cabo",
+    },
   ];
   
 const Navbar = () => {
@@ -46,7 +50,7 @@ const Navbar = () => {
               key={link.href}
               to={link.href}
               className={({ isActive }) => (
-               `text-lg uppercase font-semibold ${isActive ? "text-green-800" : "text-white" } `
+               `text-lg uppercase font-semibold ${isActive ? "text-emerald-900" : "text-white" } `
               )
              } 
             >
@@ -55,6 +59,8 @@ const Navbar = () => {
           ))}
 
           <CartWidget />
+
+
         </nav>
 
       </div>
