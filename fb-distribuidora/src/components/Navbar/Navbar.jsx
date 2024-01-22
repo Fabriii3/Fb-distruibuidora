@@ -1,6 +1,8 @@
 import logo from "../../assets/images/logoblack.svg"
 import CartWidget from "./CartWidget"
 import {  NavLink  } from "react-router-dom";
+import TopBarfb from "./TopBarfb";
+
 
 const links = [
     {
@@ -29,11 +31,11 @@ const links = [
     },
   ];
   
-
 const Navbar = () => {
-   
+      
     return (
-        <header className="bg-green-400">
+        <header className="bg-emerald-500">
+           <TopBarfb/>
             <div className="container m-auto py-6 flex justify-between items-center">
         <img src={logo} alt="Logo FB Distribuidora" />
 
@@ -57,6 +59,7 @@ const Navbar = () => {
 
       </div>
         </header>
+        
     )
 }
 

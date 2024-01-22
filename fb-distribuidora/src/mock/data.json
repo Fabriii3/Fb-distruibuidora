@@ -2,23 +2,23 @@
   "id": 1,
   "name": "Microfibra",
   "price": 300,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_967855-MLU72569139148_112023-O.webp",
   "category": "microfibras",
   "stock": 10,
   "description": "40x40 cm | cantidad por bulto : 120"
 }, {
   "id": 2,
-  "name": "microfibra grande lava auto",
+  "name": "Microfibra grande lava auto",
   "price": 2000,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_901154-MLA51108294286_082022-O.webp",
   "category": "microfibras",
   "stock": 43,
-  "description": "ideal para lavar autos "
+  "description": "ideal para talleres detailing"
 }, {
   "id": 3,
   "name": "Paño",
   "price": 90,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_707230-MLA71412135490_092023-O.webp",
   "category": "rejillas",
   "stock": 77,
   "description": "Diferentes colores : amarillo | azul | verde | rosa | cantidad por bulto : 250 "
@@ -26,7 +26,7 @@
   "id": 4,
   "name": "Paño Grande ",
   "price": 235 ,
-  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_890909-MLU73290210291_122023-O.webp",
   "category": "rejillas",
   "stock": 29,
   "description": "ideal para la cocina | cantidad por bulto : 100 "
@@ -34,7 +34,7 @@
   "id": 5,
   "name": "Trapo comun ",
   "price": 125,
-  "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_901553-MLA71119693579_082023-O.webp",
   "category": "trapos",
   "stock": 12,
   "description": "Julieta | cantidad por bulto : 120"
@@ -42,7 +42,7 @@
   "id": 6,
   "name": "Trapo costurado super",
   "price": 230,
-  "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_968531-MLA70607945462_072023-O.webp",
   "category": "trapos",
   "stock": 83,
   "description": "cantidad por bulto : 120"
@@ -50,7 +50,7 @@
   "id": 7,
   "name": "Trapo nido abeja",
   "price": 240,
-  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_982480-MLA49236319315_032022-O.webp",
   "category": "trapos",
   "stock": 99,
   "description": "cantidad por bulto : 60 "
@@ -58,7 +58,7 @@
   "id": 8,
   "name": "Trapo consorcio",
   "price": 330,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_688119-MLA31134988131_062019-O.webp",
   "category": "trapos",
   "stock": 57,
   "description": " 60x70 cm | cantidad por bulto : 60"
@@ -66,7 +66,7 @@
   "id": 9,
   "name": "Trapo consorcio",
   "price": 350,
-  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_803803-MLA31616253194_072019-O.webp",
   "category": "trapos",
   "stock": 8,
   "description": " 60x70 cm | cantidad por bulto : 120"
@@ -74,7 +74,7 @@
   "id": 10,
   "name": "Rejilla americana ",
   "price": 90,
-  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_860277-MLA49053978000_022022-O.webp",
   "category": "rejillas",
   "stock": 8,
   "description": "linea 10 | 42x38 cm | cantidad por bulto : 120"
@@ -82,7 +82,7 @@
   "id": 11,
   "name": "Rejilla multiuso",
   "price": 170,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_718707-MLA72672382963_112023-O.webp",
   "category": "rejillas",
   "stock": 44,
   "description": "Linea 10 | cantidad por bulto : 120"
@@ -90,7 +90,7 @@
   "id": 12,
   "name": "Rejilla auto",
   "price": 350,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_746870-MLU73905680621_012024-O.webp",
   "category": "rejillas",
   "stock": 73,
   "description": "cantidad por bulto : 120"
@@ -98,7 +98,7 @@
   "id": 13,
   "name": "Rejilla nido color",
   "price": 230,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_813618-MLU73722703667_122023-O.webp",
   "category": "rejillas",
   "stock": 97,
   "description": "cantidad por bulto : 120"
@@ -106,7 +106,7 @@
   "id": 14,
   "name": "Franela naranja",
   "price": 192,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_774800-MLA49760761346_042022-O.webp",
   "category": "trapos",
   "stock": 33,
   "description": "cantidad por bulto : 120"
@@ -114,7 +114,7 @@
   "id": 15,
   "name": "Repasador nido de abeja ",
   "price": 500,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_782297-MLA44737590361_012021-O.webp",
   "category": "repasadores",
   "stock": 12,
   "description": "cantidad por bulto : 60"
@@ -122,7 +122,7 @@
   "id": 16,
   "name": "Repasador toalla",
   "price": 480,
-  "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_975363-MLA72878915871_112023-O.webp",
   "category": "repasadores",
   "stock": 10,
   "description": "cantidad por bulto : 60"
@@ -130,7 +130,7 @@
   "id": 17,
   "name": "Repasador toalla fleco ",
   "price": 700,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_607475-MLA48022930954_102021-O.webp",
   "category": "repasadores",
   "stock": 29,
   "description": "cantidad por bulto : 60"
@@ -138,7 +138,7 @@
   "id": 18,
   "name": "Repasador nido de abeja color " ,
   "price": 300,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_980210-MLU72732453687_112023-O.webp",
   "category": "repasadores",
   "stock": 64,
   "description": "cantidad por bulto : 60 "
@@ -146,7 +146,7 @@
   "id": 19,
   "name": "Cabo de primera blanco",
   "price": 195,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_646735-MLA47149858097_082021-O.webp",
   "category": "cabo",
   "stock": 8,
   "description": "cantidad por bulto : 50 "
@@ -154,7 +154,7 @@
   "id": 20,
   "name": "Cabo forrado color",
   "price": 280,
-  "img": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_700490-MLA70101296249_062023-O.webp",
   "category": "cabo",
   "stock": 29,
   "description": " La gauchita | cantidad por bulto : 48"
@@ -162,15 +162,15 @@
   "id": 21,
   "name": "Esponja acero",
   "price": 100,
-  "img": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_631719-MLU73992707752_012024-O.webp",
   "category": "esponjas",
   "stock": 27,
   "description": "MAKE 10 gr | cantidad por bulto : 60"
 }, {
   "id": 22,
-  "name": "Esponja acero",
+  "name": "Esponja acero dorada",
   "price": 120,
-  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_917235-MLA48874502585_012022-O.webp",
   "category": "esponjas",
   "stock": 47,
   "description": "MAKE 15 gr | cantidad por bulto : 60"
@@ -178,7 +178,7 @@
   "id": 23,
   "name": "Esponja acero",
   "price": 250,
-  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_631719-MLU73992707752_012024-O.webp",
   "category": "esponjas",
   "stock": 66,
   "description": "MAKE 30 gr | cantidad por bulto : 60"
@@ -186,7 +186,7 @@
   "id": 24,
   "name": "Esponja acero ",
   "price": 420,
-  "img": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_602602-MLA71425403509_082023-O.webp",
   "category": "esponjas",
   "stock": 43,
   "description": "MAKE 50 gr | cantidad por bulto : 60"
@@ -194,7 +194,7 @@
   "id": 25,
   "name": "Esponja POWER",
   "price": 6426,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_731526-MLA43308583096_082020-O.webp",
   "category": "esponjas",
   "stock": 74,
   "description": "Salva uña | cantidad por bulto : 120"
@@ -203,7 +203,7 @@
   "id": 27,
   "name": "Esponja Max grande",
   "price": 120,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_900170-MLA43308743039_082020-O.webp",
   "category": "esponjas",
   "stock": 74,
   "description": " cantidad por bulto : 120"
@@ -212,7 +212,7 @@
   "id": 27,
   "name": "Esponja comun",
   "price": 85,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_806410-MLA54964889861_042023-O.webp",
   "category": "esponjas",
   "stock": 74,
   "description": " cantidad por bulto : 240"
@@ -221,7 +221,7 @@
   "id": 28,
   "name": "Repasador grande",
   "price": 435,
-  "img": "http://dummyimage.com/250x250.png/dddddd/000000",
+  "img": "https://http2.mlstatic.com/D_NQ_NP_680978-MLA54100030393_032023-O.webp",
   "category": "repasadores",
   "stock": 74,
   "description": "Juancho | cantidad por bulto : 60"

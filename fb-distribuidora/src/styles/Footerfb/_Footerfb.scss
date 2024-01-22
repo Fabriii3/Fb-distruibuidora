@@ -1,0 +1,50 @@
+.footerindex {
+    background-color: #10b981;
+    grid-area:footer;
+    display: grid;
+    grid-template-rows:  2fr , 1fr;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-areas: 
+      "horarios info contacto"
+      "copy copy copy"
+       ;
+  
+     .horarios-footer{
+      @include flexbox (column ,norawp , center , center);
+      grid-area:horarios;
+        font-size: 1rem;
+        @include fontbi; 
+       .img-logof{
+        height: 150px;
+        width: 200px;
+        margin-top: 10px;
+      }
+     }
+  
+  .info-footer{
+    grid-area: info;
+    @include flexbox (row ,norawp , center , center);
+    @include fontbi;
+    .titulo-info{
+       font-size: 1.3rem;
+    }
+  }
+  
+  .contacto-footer {
+    grid-area: contacto;
+    @include flexbox (row ,norawp , center , center);
+    @include fontbi;
+    .titulo-contacto {
+      font-size: 1.3rem;
+    }
+   
+  }
+  
+  .copy-footer{
+    grid-area: copy;
+    @include flexbox (row ,norawp , center , center);
+    @include fontbi;
+    font-size: 1rem;
+  }
+  
+  }

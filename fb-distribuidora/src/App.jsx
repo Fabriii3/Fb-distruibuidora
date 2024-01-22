@@ -8,6 +8,7 @@ import { CartPorvider } from './context/CartContext';
 import CartView from './components/CartView/CartView';
 import { UserProvider } from './context/UserContext';
 import Checkout from './components/Checkout/Checkout';
+import Footerfb from './components/Footerfb/Footerfb';
 
 function App() {
 
@@ -34,6 +35,8 @@ function App() {
         </Routes>
         
       </BrowserRouter>
+
+      <Footerfb/>
 
   </CartPorvider>  
 
