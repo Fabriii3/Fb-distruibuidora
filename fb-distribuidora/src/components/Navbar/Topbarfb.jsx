@@ -1,5 +1,5 @@
 
-const TopBarfb = () => {
+const Topbarfb = () => {
    return (
     <nav className="topbar" >
         <div>
@@ -16,4 +16,4 @@ const TopBarfb = () => {
   )
 }
 
-export default TopBarfb
+export default Topbarfb
