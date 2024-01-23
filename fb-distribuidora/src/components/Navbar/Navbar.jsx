@@ -1,50 +1,55 @@
 import logo from "../../assets/images/logofb4.png"
 import CartWidget from "./CartWidget"
-import {  NavLink  } from "react-router-dom";
-import Topbarfb from "./Topbarfb";
+import Topvar from "./Topvar";
 import { useState } from "react";
+import { useContext } from "react";
+import { UserContext } from "../../context/UserContext";
+import Boton from "../../ejemplos/Boton";
+
+
+const links = [
+  {
+    label: "Inicio",
+    href: "/",
+  },
+  {
+    label: "Trapos",
+    href: "/productos/trapos",
+  },
+  {
+    label: "Rejillas",
+    href: "/productos/rejillas",
+  },
+  {
+    label: "Esponjas",
+    href: "/productos/esponjas",
+  },
+  {
+    label: "Repasadores",
+    href: "/productos/repasadores",
+  },
+  {
+    label: "Microfibra",
+    href: "/productos/microfibras",
+  },
+  {
+    label: "Cabo",
+    href: "/productos/cabo",
+  },
+];
 
 
 
-  
 const Navbar = () => {
   
-  const links = [
-    {
-      label: "Inicio",
-      href: "/",
-    },
-    {
-      label: "Trapos",
-      href: "/productos/trapos",
-    },
-    {
-      label: "Rejillas",
-      href: "/productos/rejillas",
-    },
-    {
-      label: "Esponjas",
-      href: "/productos/esponjas",
-    },
-    {
-      label: "Repasadores",
-      href: "/productos/repasadores",
-    },
-    {
-      label: "Microfibra",
-      href: "/productos/microfibras",
-    },
-    {
-      label: "Cabo",
-      href: "/productos/cabo",
-    },
-  ];
+  
 
+  const { user, logout } = useContext(UserContext)
   const [open,setOpen]=useState(false);
 
 return (
   <div className='navfix shadow-md w-full top-0 left-0'>
-    <Topbarfb/>
+    <Topvar/>
     <div className='md:flex items-center justify-between bg-emerald-500 py-4 md:px-10 px-7'>
     <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
     text-blue-800'>
@@ -67,16 +72,23 @@ return (
         
       }
         <CartWidget/>
+        {user.logged && <div>
+          <Boton onClick={logout}>Cerrar sesión</Boton>
+          </div>}
     </ul>
+   
+
     </div>    
 
+    
+   
   </div>
-  
-)
-}
+   
+ );
+};
 
 export default Navbar
 
 
-
+ {/* <p className="text-white">{user.email}</p> */}
 
