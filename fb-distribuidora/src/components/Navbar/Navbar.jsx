@@ -1,7 +1,7 @@
 import logo from "../../assets/images/logofb4.png"
 import CartWidget from "./CartWidget"
-// import {  NavLink  } from "react-router-dom";
-import TopBarfb from "./TopBarfb";
+import {  NavLink  } from "react-router-dom";
+import Topbarfb from "./Topbarfb";
 import { useState } from "react";
 
 
@@ -44,7 +44,7 @@ const Navbar = () => {
 
 return (
   <div className='navfix shadow-md w-full top-0 left-0'>
-    <TopBarfb/>
+    <Topbarfb/>
     <div className='md:flex items-center justify-between bg-emerald-500 py-4 md:px-10 px-7'>
     <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
     text-blue-800'>
