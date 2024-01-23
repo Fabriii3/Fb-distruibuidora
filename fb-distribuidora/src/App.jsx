@@ -9,6 +9,9 @@ import CartView from './components/CartView/CartView';
 import { UserProvider } from './context/UserContext';
 import Checkout from './components/Checkout/Checkout';
 import Footerfb from './components/Footerfb/Footerfb';
+import NotFound from './components/NotFound/NotFound';
+
+
 
 function App() {
 
@@ -19,7 +22,10 @@ function App() {
 
     <BrowserRouter>
 
-        <Navbar />
+        <Navbar/>
+     
+
+        
 
         <Routes>
           <Route path="/" element={ <ItemListContainer /> } />
@@ -30,7 +36,7 @@ function App() {
           <Route path="/checkout" element={<Checkout/>}></Route>
 
 
-          <Route path="/not-found" element={ <h2>Not found</h2> }/>
+          <Route path="/not-found" element={<NotFound/>}/>
           <Route path="*" element={ <Navigate to={"/not-found"}/> }/>
         </Routes>
         

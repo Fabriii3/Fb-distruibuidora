@@ -1,4 +1,4 @@
-import logo from "../../assets/images/logoblack.svg"
+import logo from "../../assets/images/logofb4.png"
 
 
 const Footerfb = () => {

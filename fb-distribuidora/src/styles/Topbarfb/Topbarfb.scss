@@ -13,7 +13,40 @@
        margin: 10px 20px 10px 20px;
        }
     }
+
+ 
+    .img-logofb{
+        height: 200px;
+        width: 300px;
+        
+    }
   
+  
+    @media (min-width : 320px)  and  (max-width :991px) {
+      .topbar {
+          display: none;
+      }
+
+      .imgfb {
+        width: 150px;
+        
+      }
+
+      .navfix {
+        position: fixed;
+      }
+
+      
+    .img-logofb{
+      height: 60px;
+      width: 150px;
+      
+  }
+
+  }
+  
+  
+
         
         
     

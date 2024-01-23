@@ -9,8 +9,8 @@ const {itemsInCart} = useContext(CartContext)
 
 
     return (
-    <Link to="/cart" className={` flex items-center gap-1 cursor-pointer`}>  
-        <img className="w-6" src={carrito}   alt="Carrito de compras" />
+    <Link to="/cart" className={`flex px-5 gap-1 cursor-pointer font-semibold `}>  
+        <img className="w-8 " src={carrito}   alt="Carrito de compras" />
         <span className="text-white text-2xl">{itemsInCart()}</span>
     </Link>
    
