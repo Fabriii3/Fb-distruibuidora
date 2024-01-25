@@ -42,8 +42,6 @@ const links = [
 
 const Navbar = () => {
   
-  
-
   const { user, logout } = useContext(UserContext)
   const [open,setOpen]=useState(false);
 
@@ -90,5 +88,5 @@ return (
 export default Navbar
 
 
- {/* <p className="text-white">{user.email}</p> */}
+ 
 

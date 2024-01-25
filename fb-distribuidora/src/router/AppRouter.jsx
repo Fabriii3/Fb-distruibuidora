@@ -7,6 +7,7 @@ import ItemDetailContainer from "../components/ItemDetailContainer/ItemDetailCon
 import ItemListContainer from "../components/ItemListContainer/ItemListContainer";
 import LoginScreen from "../components/LoginScreen/LoginScreen";
 import Navbar from "../components/Navbar/Navbar";
+
 import Footerfb from "../components/Footerfb/Footerfb";
 // import NotFound from "../components/NotFound/NotFound";
 
@@ -20,18 +21,18 @@ const AppRouter = () => {
 
       {user.logged ? (
         <Routes>
-          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/" element={<ItemListContainer/>} />
           <Route
             path="/productos/:categoryId"
             element={<ItemListContainer />}
           />
-          <Route path="/item/:itemId" element={<ItemDetailContainer />} />
+          <Route path="/item/:itemId" element={<ItemDetailContainer/>} />
           <Route path="/cart" element={<CartView />} />
           <Route path="/checkout" element={<Checkout />} />
 
 
-          {/* <Route path="/not-found" element={<NotFound/>}/> */}
-          <Route path="*" element={ <Navigate to={"/"}/> }/>
+          {/* <Route path="/not-found" element={<h2>Not found</h2>} /> */}
+          <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
       ) : (
         <Routes>
@@ -39,9 +40,12 @@ const AppRouter = () => {
           <Route path="*" element={<Navigate to="/login" />} />
         </Routes>
       )}
+
        <Footerfb/>
+
     </BrowserRouter>
   );
 };
 
 export default AppRouter;
+

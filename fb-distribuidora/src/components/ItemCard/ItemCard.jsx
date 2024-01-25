@@ -3,7 +3,7 @@ import Boton from "../../ejemplos/Boton";
 
 const ItemCard = ({item}) => {
     return (
-        <article className="w-80 mx-4 max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 ">
+        <article className="w-80 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 ">
           <img className="object-cover object-center group-hover:opacity-75 mt-4 text-sm my-2 h-60" src={item.img} alt={item.name} />
           <h3 className="text-2xl font-bold italic">{item.name}</h3>
           <hr />

@@ -1,5 +1,4 @@
 import { useContext, useState } from "react";
-import "./LoginScreen.scss";
 import { UserContext } from "../../context/UserContext";
 
 const LoginScreen = () => {
@@ -26,12 +25,12 @@ const LoginScreen = () => {
   return (
     <div className="login-container">
       <div className="p-8 rounded bg-white">
-        <h2 className="text-2xl font-semibold w-80">Login</h2>
-        <hr />
+        <h2 className="text-center text-4xl font-bold italic w-96 "> Ingreso </h2>
+      
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-3 mt-4">
           <input
-            className="border p-2"
+            className=" border border-black rounded-2xl p-2"
             type="email"
             placeholder="Email"
             value={values.email}
@@ -39,29 +38,29 @@ const LoginScreen = () => {
             name="email"
           />
           <input
-            className="border p-2"
+            className="border border-black rounded-2xl p-2"
             type="password"
-            placeholder="Password"
+            placeholder="Contraseña"
             value={values.password}
             onChange={handleInputChange}
             name="password"
           />
 
-          <button type="submit" className="bg-emerald-500 text-white py-2">
+          <button type="submit" className="border rounded-2xl p-2 bg-emerald-500 text-white py-2">
             Ingresar
           </button>
         </form>
 
         <button
           onClick={() => register(values)}
-          className="bg-emerald-500 text-white p-2 mt-4"
+          className="border rounded-2xl p-2 bg-emerald-500 text-white p-2 mt-4"
         >
           Registrarse
         </button>
             <br/>
         <button
           onClick={googleLogin}
-          className="bg-emerald-500 text-white p-2 mt-4"
+          className="border rounded-2xl p-2 bg-emerald-500 text-white p-2 mt-4"
         >
           Iniciar sesión con Google
         </button>

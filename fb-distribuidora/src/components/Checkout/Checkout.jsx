@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../firebase/config";
-import { collection, writeBatch, addDoc, setDoc , doc, updateDoc, getDoc, query, where, documentId, getDocs } from "firebase/firestore";
+import { collection, writeBatch, addDoc, query, where, documentId, getDocs } from "firebase/firestore";
 import Swal from "sweetalert2";
 
 const Checkout = () => {
@@ -41,7 +41,7 @@ const Checkout = () => {
 
     const outOfStock = []
  
-    querySnapshot.docs.forEach(doc => {
+   querySnapshot.docs.forEach(doc => {
       const item = cart.find(prod => prod.id === doc.id)
       const stock = doc.data().stock
      
@@ -53,6 +53,7 @@ const Checkout = () => {
         outOfStock.push(item)
       }
     })
+
 
     if (outOfStock.length === 0) {
       batch.commit()
@@ -99,7 +100,8 @@ const Checkout = () => {
         className="flex flex-col gap-4 max-w-md mt-4"
       >
         <input
-          className="border p-2"
+        required
+          className="border p-2 "
           type="text"
           placeholder="Nombre"
           value={values.nombre}
@@ -108,6 +110,7 @@ const Checkout = () => {
         />
 
         <input
+        required
           className="border p-2"
           type="text"
           placeholder="Dirección"
@@ -116,6 +119,7 @@ const Checkout = () => {
           name="direccion"
         />
         <input
+          required
           className="border p-2"
           type="email"
           placeholder="Email"
@@ -123,7 +127,7 @@ const Checkout = () => {
           onChange={handleInputChange}
           name="email"
         />
-        <button type="submit" className="bg-blue-500 text-white py-2">
+        <button type="submit" className="bg-emerald-500 text-white py-2">
           Enviar
         </button>
       </form>
