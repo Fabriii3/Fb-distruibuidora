@@ -12,7 +12,6 @@ export const UserProvider = ({children}) => {
         uid: null
     })
 
-
     const login = (values) => {
         signInWithEmailAndPassword(auth, values.email, values.password)
     }
@@ -20,6 +19,7 @@ export const UserProvider = ({children}) => {
     const register = (values) => {
         createUserWithEmailAndPassword(auth, values.email, values.password)
     }
+
 
     const logout = () => {
         signOut(auth)

@@ -22,6 +22,7 @@ const LoginScreen = () => {
     login(values);
   };
 
+
   return (
     <div className="login-container">
       <div className="p-8 rounded bg-white">
@@ -52,7 +53,7 @@ const LoginScreen = () => {
         </form>
 
         <button
-          onClick={() => register(values)}
+           onClick={() => register(values)}
           className="border rounded-2xl p-2 bg-emerald-500 text-white p-2 mt-4"
         >
           Registrarse

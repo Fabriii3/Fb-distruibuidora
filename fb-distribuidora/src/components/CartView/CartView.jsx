@@ -11,7 +11,7 @@ const CartView = () => {
 const { cart , totalCart , clearCart , removeItem} = useContext(CartContext)
 const {user} = useContext(UserContext)
 
-  if(!user.email)  return <h2>No hay usuario registrado </h2> ;
+  if(!user.email)  return <p className="text-4xl font-semibold italic py-12 text-center">No hay usuario registrado </p> ;
   if (cart.length === 0) return <EmtpyCart/>
   
 

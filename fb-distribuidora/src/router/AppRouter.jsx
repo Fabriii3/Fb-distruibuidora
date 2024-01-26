@@ -21,21 +21,21 @@ const AppRouter = () => {
 
       {user.logged ? (
         <Routes>
-          <Route path="/" element={<ItemListContainer/>} />
+          <Route path="/" element={<ItemListContainer />} />
           <Route
             path="/productos/:categoryId"
             element={<ItemListContainer />}
           />
-          <Route path="/item/:itemId" element={<ItemDetailContainer/>} />
+          <Route path="/item/:itemId" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<CartView />} />
           <Route path="/checkout" element={<Checkout />} />
 
 
-          {/* <Route path="/not-found" element={<h2>Not found</h2>} /> */}
+          {/* <Route path="/not-found" element={<NotFound/>} /> */}
           <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
       ) : (
-        <Routes>
+       <Routes>
           <Route path="/login" element={<LoginScreen />} />
           <Route path="*" element={<Navigate to="/login" />} />
         </Routes>
