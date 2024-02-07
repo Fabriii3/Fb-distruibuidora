@@ -10,7 +10,7 @@ const Topvar = () => {
 
             <div className="top-nav-contacto">
                 <p><i className="bi bi-whatsapp"></i> +54 9 11-5566-5857 </p>
-                <p>distribuidorafb@gmail.com</p>
+                <p> distribuidora.limpiezafb@gmail.com </p>
             </div>
         </div>
     </nav>
