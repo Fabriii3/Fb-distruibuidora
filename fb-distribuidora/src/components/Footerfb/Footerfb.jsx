@@ -35,7 +35,7 @@ const Footerfb = () => {
      <ul>
        <li><p className="titulo-contacto">CONTACTO</p></li>
        <li>11-3455-4355</li>
-       <li>distribuidorafb@gmail.com</li>
+       <li>distribuidora.limpiezafb@gmail.com</li>
        <li>San Justo, Buenos Aires</li>
      </ul>
     </div>

@@ -100,23 +100,23 @@ const Checkout = () => {
         className="flex flex-col gap-4 max-w-md mt-4"
       >
         <input
-        required
           className="border p-2 "
           type="text"
           placeholder="Nombre"
           value={values.nombre}
           onChange={handleInputChange}
           name="nombre"
+          required
         />
 
         <input
-        required
           className="border p-2"
           type="text"
           placeholder="Dirección"
           value={values.direccion}
           onChange={handleInputChange}
           name="direccion"
+          required
         />
         <input
           required
