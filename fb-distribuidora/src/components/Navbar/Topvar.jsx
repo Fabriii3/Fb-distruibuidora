@@ -9,7 +9,7 @@ const Topvar = () => {
             </div>
 
             <div className="top-nav-contacto">
-                <p><i className="bi bi-whatsapp"></i> +54 9 11-5566-5857 </p>
+                <p><i className="bi bi-whatsapp"></i> +54 9 11-2286-9113 </p>
                 <p> distribuidora.limpiezafb@gmail.com </p>
             </div>
         </div>
