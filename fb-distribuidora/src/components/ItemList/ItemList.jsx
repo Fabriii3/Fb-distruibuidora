@@ -7,7 +7,7 @@ const ItemList = ({productos}) => {
   return (
     <section className="container m-auto mt-8">
 
-      <p className="text-4xl text-center my-10 font-bold italic"> Catalogo de productos </p>
+      <p className="catalogomobile text-4xl text-center my-10 font-bold italic"> Catalogo de productos </p>
   
     
   

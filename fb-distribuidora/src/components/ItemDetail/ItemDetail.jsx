@@ -31,7 +31,7 @@ const ItemDetail = ({ item }) => {
     <hr className="mt-5"/>
     
     <div className="flex gap-8">
-        <img className="object-cover object-center group-hover:opacity-75 mt-4 text-sm my-2 h-80" src={item.img} alt={item.name} />
+        <img className=" object-cover object-center group-hover:opacity-75 mt-4 text-sm my-2 h-80" src={item.img} alt={item.name} />
       <div>
         <p> {item.description}</p>
         <p className="text-xl font-bold"> Precio: ${item.price} </p>

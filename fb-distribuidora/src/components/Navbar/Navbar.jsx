@@ -29,10 +29,10 @@ const links = [
     label: "Repasadores",
     href: "/productos/repasadores",
   },
-  {
-    label: "Microfibra",
-    href: "/productos/microfibras",
-  },
+  // {
+  //   label: "Microfibra",
+  //   href: "/productos/microfibras",
+  // },
   {
     label: "Cabo",
     href: "/productos/cabo",
