@@ -7,9 +7,8 @@ export const UserContext = createContext()
 
 export const UserProvider = ({children}) => {
     const [user, setUser] = useState({
-        email: null,
-        logged: false,
-        uid: null
+        email: "distribuidora.limpiezafb@gmail.com",
+        uid: "d9i8str8ib7uido6r6a"
     })
 
     const login = (values) => {
@@ -54,3 +53,9 @@ export const UserProvider = ({children}) => {
         </UserContext.Provider>
     )
 }
+
+// const [user, setUser] = useState({
+//     email: null,
+//     logged: false,
+//     uid: null
+// })

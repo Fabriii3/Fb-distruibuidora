@@ -3,22 +3,22 @@ import { CartContext } from "../../context/CartContext"
 import Boton from "../../ejemplos/Boton"
 import trashIcon from "../../assets/images/trash.svg"
 import { Link } from "react-router-dom"
-import { UserContext } from "../../context/UserContext"
+// import { UserContext } from "../../context/UserContext"
 import EmtpyCart from "./EmtpyCart"
 
 
 const CartView = () => {
 const { cart , totalCart , clearCart , removeItem} = useContext(CartContext)
-const {user} = useContext(UserContext)
+// const {user} = useContext(UserContext)
 
-  if(!user.email)  return <p className="text-4xl font-semibold italic py-12 text-center">No hay usuario registrado </p> ;
+ 
   if (cart.length === 0) return <EmtpyCart/>
   
 
    return (
     <div>
         <section className="container m-auto mt-8 ">
-             <p>Bienvenido : {user.email} </p>
+          
              <h2 className="text-4xl font-semibold"> Tu compra </h2>
              <hr />
 
@@ -50,3 +50,7 @@ const {user} = useContext(UserContext)
 };
 
 export default CartView
+
+
+// if(!user.email)  return <p className="text-4xl font-semibold italic py-12 text-center">No hay usuario registrado </p> ;
+{/* <p>Bienvenido : {user.email} </p> */}
