@@ -1,51 +1,105 @@
 .footerindex {
-    color: white;
-    margin-top: 15%;
-    background-color: #10b981;
-    grid-area:footer;
-    display: grid;
-    grid-template-rows:  2fr , 1fr;
-    grid-template-columns: repeat(3 ,1fr);
-    grid-template-areas: 
-      "horarios info contacto"
-      "copy copy copy"
-       ;
-  
-     .horarios-footer{
-      @include flexbox (column ,norawp , center , center);
-      grid-area:horarios;
-        font-size: 1rem;
-        @include fontbi; 
-       .img-logof{
-        height: 170px;
-        width: 300px;
-      }
-     }
-  
-  .info-footer{
-    grid-area: info;
-    @include flexbox (row ,norawp , center , center);
+  color: white;
+  margin-top: 15%;
+  background-color: #10b981;
+  grid-area: footer;
+  display: grid;
+  grid-template-rows: 2fr, 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    "horarios info contacto"
+    "copy copy copy";
+
+  .horarios-footer {
+    @include flexbox(column, norawp, center, center);
+    grid-area: horarios;
+    font-size: 1rem;
     @include fontbi;
-    .titulo-info{
-       font-size: 1.3rem;
+    
+    .img-logof {
+      height: 170px;
+      width: 300px;
     }
   }
-  
+
+  .info-footer {
+    grid-area: info;
+    @include flexbox(row, norawp, center, center);
+    @include fontbi;
+
+    .titulo-info {
+      font-size: 1.3rem;
+    }
+  }
+
   .contacto-footer {
     grid-area: contacto;
-    @include flexbox (row ,norawp , center , center);
+    @include flexbox(row, norawp, center, center);
     @include fontbi;
+
     .titulo-contacto {
       font-size: 1.3rem;
     }
-   
   }
-  
-  .copy-footer{
+
+  .copy-footer {
     grid-area: copy;
-    @include flexbox (row ,norawp , center , center);
+    @include flexbox(row, norawp, center, center);
     @include fontbi;
     font-size: 1rem;
   }
+
+
   
+
+  /* Media query para dispositivos entre 320px y 640px */
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr; /* Apilar las secciones verticalmente */
+    grid-template-areas: 
+      "horarios"
+      "info"
+      "contacto"
+      "copy";
+
+    .horarios-footer,
+    .info-footer,
+    .contacto-footer {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    /* Ajustar tamaño de la imagen en pantallas pequeñas */
+    .img-logof {
+      width: 200px; /* Ajuste de tamaño más pequeño */
+      height: auto; /* Mantener la proporción */
+    }
+
+    .titulo-info,
+    .titulo-contacto {
+      font-size: 1.1rem; /* Ajuste de tamaño de fuente */
+    }
+
+    .copy-footer {
+      font-size: 0.9rem; /* Ajuste de tamaño de fuente */
+      margin-top: 1rem;
+    }
   }
+
+  /* Media query para dispositivos de 320px a 480px */
+  @media (max-width: 480px) {
+    .horarios-footer,
+    .info-footer,
+    .contacto-footer {
+      margin-bottom: 0.5rem; /* Menor espacio entre secciones en pantallas muy pequeñas */
+    }
+
+    .img-logof {
+      width: 150px; /* Más pequeño para pantallas muy pequeñas */
+    }
+
+    .titulo-info,
+    .titulo-contacto {
+      font-size: 1rem; /* Ajuste para pantallas muy pequeñas */
+    }
+  }
+}
