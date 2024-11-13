@@ -62,7 +62,10 @@ const Checkout = () => {
       <hr className="mb-6" />
 
       {/* Formulario para capturar los datos del cliente */}
-      <h4 className="text-lg sm:text-xl font-semibold mb-4 text-center w-full">Ingresa tus datos:</h4>
+     <h4 className="text-lg sm:text-xl md:text-2xl font-semibold mb-4 text-center w-full mt-16 sm:mt-8 md:mt-0">
+  Ingresa tus datos:
+</h4>
+
 
       <form
         onSubmit={handleSubmit}
