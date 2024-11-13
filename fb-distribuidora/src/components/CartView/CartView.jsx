@@ -23,7 +23,7 @@ const CartView = () => {
               <div className="text-center sm:text-left mt-2 sm:mt-0">
                 <h3 className="text-xl sm:text-2xl font-bold">{item.name}</h3>
                 <p className="text-lg sm:text-2xl font-bold">${item.price * item.cantidad}</p>
-                <p className="text-lg">Cantidad: {item.cantidad}</p>
+                <p className="text-lg  font-semibold ">Cantidad: {item.cantidad}</p>
                 <div className="mt-3">
                   <Boton className="bg-red-500 w-full sm:w-auto mx-auto" onClick={() => removeItem(item.id)}>
                     <img className="w-4 inline-block mr-2" src={trashIcon} alt="trash icon" />

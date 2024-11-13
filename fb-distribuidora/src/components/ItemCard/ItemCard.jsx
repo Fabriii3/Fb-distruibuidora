@@ -18,11 +18,19 @@ const ItemCard = ({ item }) => {
         <hr className="my-2 border-t-2 border-emerald-500 w-20 mx-auto" />
   
         {/* Disponibilidad del producto */}
-        {item.stock <= 10 && 
+        {item.stock === 0 ? (
+          <p className="font-bold text-red-500 text-xs sm:text-base text-center mt-2">
+            No hay stock disponible
+          </p>
+        ) : item.stock <= 10 ? (
           <p className="font-bold text-red-500 text-xs sm:text-base text-center mt-2">
             ¡Quedan solo {item.stock} unidades!
           </p>
-        }
+        ) : (
+          <p className="font-bold text-green-500 text-xs sm:text-base text-center mt-2">
+            Stock disponible
+          </p>
+        )}
         
         {/* Precio */}
         <p className="mt-1 text-base sm:text-lg font-semibold text-gray-900 text-center"> 
@@ -32,29 +40,14 @@ const ItemCard = ({ item }) => {
         {/* Botón de "Ver más" con un efecto suave */}
         <div className="flex justify-center mt-3 sm:mt-4">
           <Boton className="bg-emerald-600 px-4 py-2 rounded-lg text-white font-medium text-sm sm:text-base sm:hover:bg-emerald-700 sm:transition-colors sm:duration-300">
-            <Link to={`/item/${item.id}`}>Agregar al carrito</Link>
+            <Link to={`/item/${item.id}`} className={item.stock === 0 ? "cursor-not-allowed opacity-50" : ""}>
+              {item.stock === 0 ? "No disponible" : "Agregar al carrito"}
+            </Link>
           </Boton>
         </div>
       </div>
     </article>
   );
-  
-  
-  
-  
 };
 
 export default ItemCard;
-
-
-
-
-
-
-
-
-
-
-
-
-
