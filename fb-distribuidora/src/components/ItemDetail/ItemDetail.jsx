@@ -22,6 +22,10 @@ const ItemDetail = ({ item }) => {
     navigate(-1);
   };
 
+  const handleSeguirComprando = () => {
+    navigate("/"); // O cambiar la ruta por la página de categoría que prefieras
+  };
+
   return (
     <div className="container m-auto mt-8 px-4 sm:px-8" style={{ marginTop: '120px' }}>
       {/* Botón Volver */}
@@ -46,10 +50,12 @@ const ItemDetail = ({ item }) => {
           <p className="text-xl font-bold">Precio: ${item.price}</p>
 
           {isInCart(item.id) ? (
-            <Boton>
-              <Link to="/cart">Ver carrito</Link> 
-            </Boton>
-            //Finalizar mi compra
+            <>
+              <Boton>
+                <Link to="/cart">Ver carrito</Link>
+              </Boton>
+              {/* Finalizar mi compra */}
+            </>
           ) : (
             <>
               <QuantitySelector
@@ -66,6 +72,14 @@ const ItemDetail = ({ item }) => {
               </Boton>
             </>
           )}
+
+          {/* Botón Seguir comprando */}
+          <Boton
+            className="bg-emerald-500 w-full sm:w-auto py-2 text-center mt-4"
+            onClick={handleSeguirComprando}
+          >
+            Seguir comprando
+          </Boton>
         </div>
       </div>
     </div>
