@@ -47,7 +47,7 @@ const Navbar = () => {
   const [open,setOpen]=useState(false);
 
   return (
-    <div className='navfix shadow-md w-full top-0 left-0'>
+    <div className='navfix shadow-md w-full top-0 left-0 z-50'>
       <Topvar />
       <div className='md:flex items-center justify-between bg-emerald-500 py-4 md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-blue-800'>
@@ -58,7 +58,7 @@ const Navbar = () => {
           <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
         </div>
   
-        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-emerald-500 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
+        <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-emerald-500 md:z-auto z-50 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
           {links.map((link) => (
             <NavLink
               key={link.href}
@@ -80,6 +80,7 @@ const Navbar = () => {
       </div>
     </div>
   );
+  
   
 };
 
